@@ -7,4 +7,6 @@ BERT Trainig with PYTORCH -- Done (Haseeb)
 
 BERT Training with Tensorflow -- Done (Wahaj)
 
+Kaggel Repo and other pre-trained models and techniques for Sentiment analysis Reseach -- Done (Ibad)
+
 -----------------------------------------
