@@ -1,8 +1,10 @@
 
 ------------ WEEK 2 APR -----------------
 
+          SENTIMENT ANALYSIS
+
 BERT Trainig with PYTORCH -- Done (Haseeb)
 
-BERT Training with Tensorflow on first 500 charactters -- Done (Wahaj)
+BERT Training with Tensorflow on first 500 characters -- Done (Wahaj)
 
 -----------------------------------------
