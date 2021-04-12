@@ -1,0 +1,8 @@
+
+------------ WEEK 2 APR -----------------
+
+BERT Trainig with PYTORCH -- Done (Haseeb)
+
+BERT Training with Tensorflow on first 500 charactters -- Done (Wahaj)
+
+-----------------------------------------
