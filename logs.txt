@@ -5,6 +5,6 @@
 
 BERT Trainig with PYTORCH -- Done (Haseeb)
 
-BERT Training with Tensorflow on first 500 characters -- Done (Wahaj)
+BERT Training with Tensorflow -- Done (Wahaj)
 
 -----------------------------------------
