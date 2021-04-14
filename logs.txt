@@ -3,10 +3,10 @@
 
           SENTIMENT ANALYSIS
 
-BERT Trainig with PYTORCH -- Done (Haseeb)
+BERT Trainig with PYTORCH -- Done (Haseeb yaseen)
 
-BERT Training with HuggingFace -- Done (Wahaj)
+BERT Training with HuggingFace -- Done (Wahaj hafeez)
 
-Kaggel Repo and other pre-trained models and techniques for Sentiment analysis Reseach -- Done (Ibad)
+Kaggel Repo and other pre-trained models and techniques for Sentiment analysis Reseach -- Done (Ibad Ahmad)
 
 -----------------------------------------
