@@ -7,14 +7,17 @@ BERT Trainig with PYTORCH -- Done (Haseeb yaseen)
 
 BERT Training with HuggingFace -- Done (Wahaj hafeez)
 
-Kaggel Repo and other pre-trained models and techniques for Sentiment analysis Reseach -- Done (Ibad Ahmad)
+Research on Kaggel Repo and other pre-trained models and techniques for Sentiment analysis -- Done (Ibad Ahmad)
 
 -----------------------------------------
+
 
 ------------ WEEK 3 APR -----------------
 
 Use Case Diagrams -- in progress ( All three )
 
-Use Case Descriptions -- in progress (Ibad,Haseeb)
+Use Case Descriptions -- in progress (Ibad)
+
+Pytorch BERT Model Retraining on Twiiter Dataset -- yet be to done ( Haseeb)
 
 -----------------------------------------
