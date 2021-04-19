@@ -14,9 +14,9 @@ Research on Kaggel Repo and other pre-trained models and techniques for Sentimen
 
 ------------ WEEK 3 APR -----------------
 
-Use Case Diagrams -- almost done ( All three )
+Use Case Diagrams -- done ( All three )
 
-Use Case Descriptions -- almost done (Ibad)
+Use Case Descriptions -- done (Ibad)
 
 Pytorch BERT Model Retraining on Twiiter Dataset -- yet be to done ( Haseeb)
 
