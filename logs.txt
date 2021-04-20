@@ -24,7 +24,7 @@ Pytorch BERT Model Retraining on Twiiter Dataset -- To be to done ( Haseeb)
 
 ------------ WEEK 4 APR -----------------
 
-Acitivity Diagram -- To be done ( Ibad )
+Acitivity Diagram -- done ( Ibad )
 
 Data Flow Diagram -- To be done (Wahaj)
 
