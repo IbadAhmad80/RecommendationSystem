@@ -26,7 +26,7 @@ Pytorch BERT Model Retraining on Twiiter Dataset -- To be to done ( Haseeb)
 
 Acitivity Diagram -- done ( Ibad )
 
-Data Flow Diagram -- To be done (Wahaj)
+Data Flow Diagram -- in progress (Wahaj)
 
 Sequence Diagram -- To be done ( Haseeb )
 
