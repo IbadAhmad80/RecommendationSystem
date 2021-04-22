@@ -3,7 +3,7 @@
 
           SENTIMENT ANALYSIS
 
-BERT Trainig with PYTORCH -- Done (Haseeb yaseen)
+BERT Trainig with PYTORCH on IMDB Dataset-- Done (Haseeb yaseen)
 
 BERT Training with HuggingFace -- Done (Wahaj hafeez)
 
@@ -18,6 +18,16 @@ Use Case Diagrams -- done ( All three )
 
 Use Case Descriptions -- done (Ibad)
 
-Pytorch BERT Model Retraining on Twiiter Dataset -- yet be to done ( Haseeb)
+Pytorch BERT Model Retraining on Twiiter Dataset -- To be to done ( Haseeb)
+
+-----------------------------------------
+
+------------ WEEK 4 APR -----------------
+
+Acitivity Diagram -- done ( Ibad )
+
+Data Flow Diagram -- To be done (Wahaj)
+
+Sequence Diagram -- To be done ( Haseeb )
 
 -----------------------------------------
