@@ -31,3 +31,20 @@ Data Flow Diagram -- almost done (Wahaj)
 Sequence Diagram -- almost done ( Haseeb )
 
 -----------------------------------------
+
+
+------------ WEEK 5 APR -----------------
+
+Work Break Down Structure -- done ( Ibad )
+
+Collaboration Diagram -- To be done (Ibad)
+
+Software architechture -- To be done (Haseeb)
+
+Class Diagram -- To be done (Haseeb)
+
+Database Diagram -- To be done (Wahaj)
+
+Network Diagram -- To be done (Wahaj)
+
+-----------------------------------------
