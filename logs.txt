@@ -37,7 +37,7 @@ Sequence Diagram -- almost done ( Haseeb )
 
 Work Break Down Structure -- done ( Ibad )
 
-Collaboration Diagram -- To be done (Ibad)
+Collaboration Diagram -- almost done (Ibad)
 
 Software architechture -- To be done (Haseeb)
 
