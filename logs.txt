@@ -26,9 +26,9 @@ Pytorch BERT Model Retraining on Twiiter Dataset -- To be to done ( Haseeb)
 
 Acitivity Diagram -- done ( Ibad )
 
-Data Flow Diagram -- almost done (Wahaj)
+Data Flow Diagram -- done (Wahaj)
 
-Sequence Diagram -- almost done ( Haseeb )
+Sequence Diagram -- adone ( Haseeb )
 
 -----------------------------------------
 
@@ -37,14 +37,26 @@ Sequence Diagram -- almost done ( Haseeb )
 
 Work Break Down Structure -- done ( Ibad )
 
-Collaboration Diagram -- almost done (Ibad)
+Collaboration Diagram -- done (Ibad)
 
-Software architechture -- To be done (Haseeb)
+Software architechture -- done (Haseeb)
 
-Class Diagram -- To be done (Haseeb)
+Class Diagram -- done (Haseeb)
 
-Database Diagram -- To be done (Wahaj)
+Database Diagram -- done (Wahaj)
 
-Network Diagram -- To be done (Wahaj)
+Network Diagram -- done (Wahaj)
 
 -----------------------------------------
+
+------------ WEEK 3 May -----------------
+
+Test Cases -- done
+
+Report Chapter 3 formatting -- to be done
+
+stackholders chapter 2 -- to be done
+
+-----------------------------------------
+
+
