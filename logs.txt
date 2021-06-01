@@ -53,7 +53,7 @@ Network Diagram -- done (Wahaj)
 
 Test Cases -- done
 
-Report Chapter 3 formatting -- to be done
+Report formatting -- to be done
 
 stackholders chapter 2 -- done
 
@@ -65,8 +65,17 @@ Requirement Elicitation Matrix -- done
 
 Chapter 2 Literature and previous work -- done
 
-chapter 1 -- almost done
+chapter 1 -- done
+
+chapter 5 -- 75% done
 
 -----------------------------------------
+
+------------ WEEk 1 June -----------------
+
+Software development lifecycle -- to be done
+
+-----------------------------------------
+
 
 
