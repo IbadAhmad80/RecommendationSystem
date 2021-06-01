@@ -55,7 +55,17 @@ Test Cases -- done
 
 Report Chapter 3 formatting -- to be done
 
-stackholders chapter 2 -- to be done
+stackholders chapter 2 -- done
+
+-----------------------------------------
+
+------------ WEEK 4 May -----------------
+
+Requirement Elicitation Matrix -- done
+
+Chapter 2 Literature and previous work -- done
+
+chapter 1 -- almost done
 
 -----------------------------------------
 
