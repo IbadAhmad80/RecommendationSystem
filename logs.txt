@@ -73,7 +73,7 @@ chapter 5 -- done
 
 ------------ WEEk 1 June -----------------
 
-Software development lifecycle -- to be done
+Software development lifecycle -- done
 
 -----------------------------------------
 
