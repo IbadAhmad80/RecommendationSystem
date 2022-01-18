@@ -20,7 +20,7 @@ You need to have [NodeJS](https://nodejs.org/en/download/) installed for both We
 
 Then go into the project directory and run 
 
-### `npm install`
+#### `npm install`
 
 After the modules installation run
 
