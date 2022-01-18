@@ -1,5 +1,5 @@
 # FYP
-Generic Recommendation System created using Reinforcement Learning
+Generic Recommendation System created using Machine Learning
 
 ## Compilation Guide
 
@@ -15,18 +15,38 @@ All the four files require GPU support for efficient execution. Simply upload th
 
 You need to have [NodeJS](https://nodejs.org/en/download/) installed for both Website and Native app for specified OS. Run commands for installation confirmation
 
-**`node -v`\
-**`npm -v`
+### `node -v`\
+### `npm -v`
 
 Then go into the project directory and run 
 
-**`npm install`
+### `npm install`
 
 After the modules installation run
 
-**`npm start`
+### `npm start`
 
-Then your server will be started at **`[localhost 3000](http://localhost:3000/)`**
+Then your server will be started at [localhost 3000](http://localhost:3000/)
+
+## `Native app Code` 
+
+[Expo Cli](https://docs.expo.dev/workflow/expo-cli) needs to be installed first
+
+### `npm install -g expo-cli`
+
+Run `expo --version` to determine what version you are currently working with.
+
+Then install `Android studio` (https://developer.android.com/studio) from here for your OS.
+
+After you have set up emulator device on Android Studio , then go into the project directory and run 
+
+### `npm install`
+
+After the modules installation run
+
+### `npm start`
+
+Your anrdroid studio device will be showing you the native app now.
 
 
 
