@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+.main-content {
+  margin-top: 10px;
+  padding-top: 15px;
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 15px;
+  /* border: 1px solid rgb(248, 244, 244); */
+}
+
+.main-content:first-child {
+  margin-top: 50px;
+}
+.small-text {
+  font-size: 12px !important;
+  font-weight: bolder;
+}
+
+.location-name {
+  cursor: pointer;
+}
+
+.place-img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.similar-place-img {
+  width: 100%;
+  margin: 0 auto;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text-striked {
+  text-decoration: line-through;
+}
+
+.shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06) !important;
+}
+
+.hotel-card .hotel-card_images {
+  flex: 2;
+}
+.hotel-card .hotel-card_images .carousel-item img {
+  height: 250px;
+  object-fit: cover;
+}
+@media (min-width: 992px) {
+  .hotel-card .hotel-card_images .carousel-item img {
+    height: 100%;
+  }
+}
+
+.hotel-card .hotel-card_info {
+  flex: 3;
+}
+
+.hotel-card .amnities img {
+  max-height: 20px;
+}
+
+.hotel-card .hotel-checklist {
+  list-style-type: none;
+}
+
+.carousel .carousel-control-prev {
+  background: linear-gradient(to right, #333333bb, #33333300);
+}
+
+.carousel .carousel-control-next {
+  background: linear-gradient(to left, #333333bb, #33333300);
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+  background-color: rgb(9, 9, 68);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.review {
+  font-size: 11px;
+  letter-spacing: 0.01cm;
+  font-weight: bold;
+}
+
+.quote-icon {
+  font-size: 12px;
+  vertical-align: middle;
+  position: relative;
+  font-weight: bolder;
+  margin-top: -5px;
+}

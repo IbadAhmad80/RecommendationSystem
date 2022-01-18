@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+
+.main_wrapper {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 95%;
+  word-wrap: break-word;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  -webkit-appearance: none;
+  appearance: none;
+  /* border-radius: .25rem; */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.comment-box {
+  padding: 5px;
+}
+
+.comment-area textarea {
+  resize: none;
+  border: 1px solid #272525;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: 0 0 0 1px maroon !important;
+}
+
+.rating {
+  display: flex;
+  margin-top: -10px;
+  flex-direction: row-reverse;
+  margin-left: -4px;
+  float: left;
+}
+
+.user_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  font-size: 20px;
+  min-width: 30px;
+  max-width: 70px;
+  width: 60px;
+  border-radius: 50%;
+  color: white;
+  object-fit: cover;
+  object-position: center;
+  background-color: maroon;
+  box-shadow: 2px 2px 2px black;
+}
+
+textarea {
+  border: none;
+  outline: none;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label {
+  position: relative;
+  width: 19px;
+  padding-inline: 0.7rem;
+  font-size: 25px;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.rating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.rating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.rating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+
+.pull-left button {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 10px 40px;
+  border-radius: 50px;
+  transition: 0.3s linear all;
+  color: black;
+}
+
+.pull-left button:hover {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}

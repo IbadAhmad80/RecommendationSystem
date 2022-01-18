@@ -1,0 +1,19 @@
+.layout {
+  color: var(--txt-color);
+}
+
+@media (max-width: 1100px) {
+  .layout {
+    display: none;
+  }
+}
+
+.layout__content {
+  padding-left: 1rem;
+  background-color: var(--second-bg);
+  min-height: 100vh;
+}
+
+.layout__content-main {
+  padding: 30px;
+}

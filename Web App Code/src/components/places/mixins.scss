@@ -1,0 +1,272 @@
+@import "./variables.scss";
+
+@mixin form_btn {
+  width: 100%;
+  background: $form-btn-bg 0% 0% no-repeat padding-box !important;
+  border-color: $form-btn-bg !important;
+  box-shadow: none !important;
+  border-radius: 2px !important;
+  color: #ffffff !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+@mixin social_btn($bg, $social_color) {
+  display: block;
+  width: 100%;
+  background: #{$bg} 0% 0% no-repeat padding-box !important;
+  color: #{$social_color} !important;
+  text-decoration: none !important;
+  border-radius: 2px;
+  opacity: 1;
+  text-align: center;
+  justify-content: first baseline;
+  line-height: 50px;
+  position: relative;
+}
+
+@mixin welcome_tex($color, $opacity) {
+  color: #{$color};
+  opacity: #{$opacity};
+  text-align: center;
+}
+
+@mixin line-with-text($width, $height) {
+  width: #{$width};
+  height: #{$height};
+  border: 1px solid $border-color;
+}
+
+@mixin form-control-reset {
+  border: none !important;
+  outline: none !important;
+  text-align: start;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  box-shadow: none !important;
+  background-color: white !important;
+}
+
+@mixin rowflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin form-group($margin) {
+  border-bottom: 2px solid rgba(112, 112, 112, 0.11);
+  position: relative;
+  margin-bottom: #{$margin};
+
+  svg {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    opacity: 0.34;
+  }
+}
+
+@mixin for-mob-s0 {
+  @media (max-width: 420px) {
+    @content;
+  }
+}
+@mixin for-mob-s1 {
+  @media (max-width: 390px) {
+    @content;
+  }
+}
+
+@mixin for-mob-s2 {
+  @media (min-width: 390px) and (max-width: 520px) {
+    @content;
+  }
+}
+@mixin for-mob-s3 {
+  @media (min-width: 520px) and (max-width: 610px) {
+    @content;
+  }
+}
+
+@mixin for-mob-s4 {
+  @media (min-width: 610px) and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin for-mob-screen {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+@mixin for-md-screen {
+  @media (min-width: 768px) and (max-width: 992px) {
+    @content;
+  }
+}
+@mixin for-md-1-screen {
+  @media (min-width: 768px) and (max-width: 930px) {
+    @content;
+  }
+}
+@mixin for-md-2-screen {
+  @media (min-width: 930px) and (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin for-lg1-screen {
+  @media (min-width: 992px) and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin for-lg2-screen {
+  @media (min-width: 1024px) and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin for-xl-screen {
+  @media (min-width: 1200px) and (max-width: 1440px) {
+    @content;
+  }
+}
+@mixin for-xl-1-screen {
+  @media (min-width: 1200px) and (max-width: 1380px) {
+    @content;
+  }
+}
+@mixin for-xl-2-screen {
+  @media (min-width: 1380px) and (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin for-exact-1440 {
+  @media (min-width: 1440px) and (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin for-xxl-screen {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+@mixin for-desktop-screen {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin width-and-margin-bottom($width, $margin-bottom) {
+  width: #{$width};
+  margin-bottom: #{$margin-bottom};
+}
+
+@mixin flex($direction, $wrap, $jc, $ai) {
+  display: flex;
+  flex-wrap: #{$wrap};
+  flex-direction: #{$direction};
+  justify-content: #{$jc};
+  align-items: #{$ai};
+}
+
+@mixin width-height-lheight-textalign($width, $height, $lheight, $textalign) {
+  width: #{$width};
+  height: #{$height};
+  line-height: #{$lheight};
+  text-align: #{$textalign};
+}
+
+@mixin footer-col-style {
+  svg {
+    width: 41px;
+    height: 37px;
+    margin-inline-end: 13px;
+    color: #404553;
+    opacity: 1;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: -5px;
+  }
+
+  .header-row {
+    width: 80%;
+    padding-left: 10px;
+
+    @include for-992-screen {
+      padding-left: 0px;
+    }
+
+    .header {
+      font-size: 13px;
+      font-weight: bold;
+      color: #404553;
+      opacity: 1;
+      @include for-992-screen {
+      }
+    }
+
+    p {
+      font-size: 13px;
+      color: #404553;
+      opacity: 1;
+      margin-bottom: 5px;
+    }
+
+    form {
+      width: 80%;
+      input {
+        margin-bottom: 10px !important;
+        box-shadow: 0px 0px 6px #00000029 !important;
+        border: 1px solid #404553 !important;
+        opacity: 1;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+      }
+
+      button {
+        padding: 7px 8px !important;
+        border: none !important;
+        background: #404553 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 6px #00000029;
+        opacity: 1;
+        color: #ffffff;
+        opacity: 1;
+      }
+    }
+
+    a {
+      text-decoration: none !important;
+      display: block;
+      font-size: 12px;
+      color: #404553;
+      opacity: 1;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@mixin for-768-screen {
+  @media (min-width: 768px) and (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin for-992-screen {
+  @media (min-width: 992px) and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin for-1024-screen {
+  @media (min-width: 1024px) and (max-width: 1200px) {
+    @content;
+  }
+}

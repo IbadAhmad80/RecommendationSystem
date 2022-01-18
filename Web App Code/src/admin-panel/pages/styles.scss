@@ -1,0 +1,40 @@
+@import "../assets//css/index.css";
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:300,400,600,700");
+
+.custom-user-table {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+
+  tr,
+  th,
+  td {
+    border: hidden !important;
+  }
+
+  tr {
+    text-align: left;
+  }
+
+  th {
+    font-size: 1.1rem;
+    padding: 15px 10px !important;
+    color: black;
+  }
+
+  td {
+    font-size: 0.9rem !important;
+    padding: 8px 10px !important;
+    white-space: nowrap !important;
+    width: 150px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .del-button {
+    background-color: var(--main-color);
+    color: white;
+    font-size: 15px !important;
+    cursor: pointer;
+    outline: none;
+  }
+}
